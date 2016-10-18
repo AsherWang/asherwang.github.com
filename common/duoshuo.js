@@ -5,13 +5,15 @@ duoshuoQuery = {
 };
 
 duoshuoQueryRun = function() {
-  var ds, ref;
+  var ds, protocol;
   ds = document.createElement('script');
   ds.type = 'text/javascript';
   ds.async = true;
-  ds.src = ((ref = document.location.protocol === 'https:') != null ? ref : {
-    'https:': 'http:'
-  }) + '//static.duoshuo.com/embed.js';
+  protocol = 'http:';
+  if (document.location.protocol === 'https:') {
+    protocol = 'https:';
+  }
+  ds.src = protocol + '//static.duoshuo.com/embed.js';
   ds.charset = 'UTF-8';
   return (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
 };
