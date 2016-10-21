@@ -1,0 +1,98 @@
+
+.SongListContainer
+{
+    height: 100%;
+    width: 100%;
+    color: #d2d2d2;
+    padding-top:0px;
+    overflow:hidden;
+}
+.SongListContainer_toper
+{
+    width: 100%;
+    margin-top: 0px;
+}
+.SongListItem
+{
+    height: 18px;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: dashed 1px #f5f5f5;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: default;
+}
+
+
+.SongListItem:hover
+{
+    padding-left: 5px;
+    height: 18px;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+    overflow: hidden;
+    border-bottom: dashed 1px #f5f5f5;
+    background: url("../ImageRes/blocks/blue.png") repeat;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: default;
+}
+
+
+
+.SongListItem_index
+{
+    float: left;
+    height:100%;
+    width:20px;
+}
+
+.SongListItem_title
+{
+    float: left;
+    overflow: hidden;
+    height:100%;
+    width:200px;
+}
+
+
+.SongListItem_artist
+{
+    float: left;
+    overflow: hidden;
+    height:100%;
+    width:60px;
+}
+
+
+
+.SongListItem_play
+{
+    float: left;
+    height:100%;
+    margin-right: 8px;
+    width:20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.SongListItem_play:hover
+{
+    margin-right: 8px;
+    float: left;
+    height:100%;
+    width:20px;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+.SongListItem_delete
+{
+    float: left;
+    height:100%;
+    width:20px;
+    font-size: 16px;
+}

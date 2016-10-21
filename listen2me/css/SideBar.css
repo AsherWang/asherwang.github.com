@@ -1,0 +1,29 @@
+body{
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom:0px;
+    top:0px;
+}
+
+.SideBar_container
+{
+    display:none;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: 105;
+    min-width: 100px;
+    min-height: 100px;
+   background: url("../ImageRes/blocks/black.png") repeat
+}
+
+
+
+.SideBar_content
+{
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+}

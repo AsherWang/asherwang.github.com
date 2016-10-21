@@ -1,0 +1,321 @@
+/* 
+* @Author: Asher
+* @Date:   2014-11-01 00:31:08
+* @Last Modified by:   Asher
+* @Last Modified time: 2016-10-22 03:49:57
+*/
+
+html{
+    min-width: 500px;
+    min-height: 400px;
+}
+body {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow:hidden;
+}
+
+
+
+.music_player_container
+{
+    height: 100%;
+    width: 100%;
+    min-width: 500px;
+    min-height: 400px;
+    overflow: hidden;
+    background:#000;
+}
+.music_player_bkg_holder{
+    background: url("http://7xirg3.com1.z0.glb.clouddn.com/11.jpg") no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+}
+
+
+.progressInfo{
+    height: 25px;
+    cursor: pointer;
+}
+
+.music_info{
+    height: 40px;
+    width: 150px;
+}
+
+.music_lrc{
+    margin-top: 0px;
+    height: 500px;
+    width: 500px;
+}
+
+.music_lrc_panel{
+    left:0px;
+    top:0px;
+    position: relative;
+    text-align: center;
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+    /*background: url("../ImageRes/blocks/white_for_lrc2.png") repeat;*/
+}
+
+.lrc_panel_mask
+{
+    background:  url("http://7xirg3.com1.z0.glb.clouddn.com/lrc_mask_butterfly.png");
+    height: 100%;
+    background-size: 100% 100%;
+    width: 100%;
+    left:0px;
+    top: 0px;
+    position: absolute;
+}
+.music_lrc_lrcLocator
+{
+    width: 100%;
+}
+.music_musicinfo
+{
+    position: relative;
+    text-align: center;
+    height:350px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.music_lrc_block{
+    width: 100%;
+    height: 20px;
+    float: left;
+}
+#music_lrc_buttom_marker{
+    width: 100%;
+    height: 20px;
+    float: left;
+}
+
+.BottomContainer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    background:  url("../ImageRes/blocks/black.png") repeat;
+    height: 100px;
+}
+
+
+
+.music_progressbar_container{
+
+}
+
+.music_progressbar{
+    position: absolute;
+    background-color: #625F5D;
+    width: 100%;
+    height: 5px;
+    left:0px;
+    top: 80px;
+}
+.music_progressbar_cachebar
+ {
+     height: 100%;
+     background-color: #908E89;
+     width:0px;
+     cursor: pointer;
+ }
+
+
+
+
+
+.music_progressbar_playbar
+{
+    height: 100%;
+    background-color: #fff;
+    width:0px; //测试文字
+    cursor: pointer;
+}
+
+.music_progressbar_cur_time{
+    position: absolute;
+    left: 0px;
+    margin-left:5px ;
+    top: 60px;
+    height: 15px;
+    color: #fff;
+}
+
+.music_progressbar_total_time{
+    position: absolute;
+    right: 0px;
+    float: right;
+    top: 60px;
+    margin-right:5px ;
+    height: 15px;
+    color: #fff;
+}
+
+
+
+.music_controller
+{
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    width: 100%;
+    height: 25px;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 25%;
+}
+
+.controller_button{
+    float: left;
+    color: #908E89;
+    cursor: pointer;
+    margin-right:5px;
+    margin-left: 5px;
+
+}
+.controller_button:hover{
+    float: left;
+    color: #fff;
+    cursor: pointer;
+    margin-right:5px;
+    margin-left: 5px;
+
+}
+
+.controller_comment
+{
+    float: left;
+    margin-left: 5px;
+    color: #908E89;
+    font-size: 20px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.controller_comment a:link,a:visited
+{
+    text-decoration: none;
+    color: #908E89;
+}
+
+.controller_comment a:hover
+{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.music_Lrcpanel2{
+    position: relative;
+    padding-top: 8px;
+    width: 100%;
+    text-align: center;
+    background-color:#cf0; 
+    font-size: 17px;
+    vertical-align: middle;
+    height: auto;
+    min-height: 30px;
+}
+.music_titlebar{
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    margin-left: 5px;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    height: 20px;
+}
+
+.music_titlebar_titleinfo{
+    float: left;
+    margin-right: 5px;
+}
+.music_lrc_block_n{
+    font-family: 宋体;
+    width: 100%;
+    min-height: 20px;
+    float: left;
+    font-weight:bold;
+    font-size: 17px;
+     text-shadow:#FFF 1px 0 0,#FFF 0 1px 0,#FFF -1px 0 0,#FFF 0 -1px 0;   
+}
+
+
+.music_lrc_block_active{
+    color: #00f;
+  //  text-shadow: 1px -1px 5px #fff,-1px 1px 5px #000;
+    font-weight:bold;
+}
+
+.music_playmode_selector
+{
+    height: 100%;
+    width: 150px;
+    //border-bottom: 1px solid #000;
+    height: 20px;
+}
+
+
+.music_playmode_sub_selector{
+    width: 90px;
+    height: 80px;
+    border: 1px solid #000;
+    position: relative;
+    left:0px;
+    top:0px;
+    z-index: 200;
+    color: red;
+    background-color: #ccc;
+    cursor: pointer;
+}
+.cur_selector_item{
+    width:100%;
+    height: 20px;
+    cursor: pointer;
+}
+
+.other_selector_item{
+    width:100%;
+    height: 20px;
+}
+
+.selector_item_mouseover{
+    background-color: #ccc;
+    color: #f00;
+}
+
+
+.music_volme_slider{
+    overflow: hidden;
+    width: 100px;
+    cursor: pointer;
+    margin-left: -2px;
+    background-color:#625F5D;
+    float: left;
+    height: 100%;
+}
+
+.controller_volme_button{
+    height: 100%;
+    float: left;
+    cursor: pointer;
+    margin-right: 2px;
+    overflow: hidden;
+}
+
+.music_volme_inner_slider
+{
+    cursor: pointer;
+    background-color: #908E89;
+    height: 100%;
+}
