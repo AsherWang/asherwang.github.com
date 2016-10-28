@@ -406,7 +406,7 @@
             var songlist=createDivBlock("fa fa-th-list controller_button");
             var changebkg_btn=createDivBlock("fa fa-magic controller_button");
             var comment=createDivBlock("controller_comment");
-            comment.innerHTML="<a href='http://www.baidu.com' target='_blank'>想说点什么?</a>"
+            comment.innerHTML="<a href='/comments/listen2me.html' target='_blank'>想说点什么?</a>"
 
             previous.setAttribute("title","上一曲");
             play.setAttribute("title","播放|暂停");
