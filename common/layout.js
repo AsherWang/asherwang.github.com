@@ -1,0 +1,1 @@
+$().ready(function(){var e,h;return e=$(".body"),h=document.body.clientHeight-$(".header").height()-$(".footer").height()-60,e.height()<h?e.css("height",h):void 0});
