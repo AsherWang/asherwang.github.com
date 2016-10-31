@@ -41,7 +41,7 @@ Github Pages主页必须服从下列使用限制：
 - 色情内容  
 - 误传你的身份或主页主旨的内容  
 
-如果你对你使用的或者打算使用的东西是不是属于上述分类，请联系[Github维护人员](https://github.com/contact)   
+如果你对你正在使用或者打算使用的东西是不是属于上述分类抱有疑问，请联系[Github维护人员](https://github.com/contact)   
 
 ### 进一步了解 
 
