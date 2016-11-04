@@ -1,0 +1,146 @@
+{
+	"groups":[
+    {
+      "keys": "bg_jpg,egret_icon_png,description_json,player_flappybird_1,player_flappybird_2,player_flappybird_3",
+      "name": "preload"
+    },
+    {
+      "keys": "enemy_deer_1,enemy_deer_2,enemy_deer_3,enemy_deer_4,enemy_deer_5,hero_run1,hero_run2,hero_run3,hero_run4,hero_skill1_1,hero_skill1_2,hero_skill1_3,hero_skill1_4,hero_skill1_5,hero_skill1_6,item_medicine_hp,item_poison_bubble",
+      "name": "enemy"
+    },
+    {
+      "keys": "bkg1,btn_pause",
+      "name": "ui"
+    }
+
+	],
+  "resources": [
+    {
+      "name": "bg_jpg",
+      "type": "image",
+      "url": "assets/bg.jpg"
+    },
+    {
+      "name": "egret_icon_png",
+      "type": "image",
+      "url": "assets/egret_icon.png"
+    },
+    {
+      "name": "player_flappybird_1",
+      "type": "image",
+      "url": "assets/player/flappybird/1.png"
+    },
+    {
+      "name": "player_flappybird_2",
+      "type": "image",
+      "url": "assets/player/flappybird/2.png"
+    },
+    {
+      "name": "player_flappybird_3",
+      "type": "image",
+      "url": "assets/player/flappybird/3.png"
+    },
+    {
+      "name": "description_json",
+      "type": "json",
+      "url": "config/description.json"
+    },
+    {
+      "name": "enemy_deer_1",
+      "type": "image",
+      "url": "assets/enemy/deer/1.png"
+    },
+    {
+      "name": "enemy_deer_2",
+      "type": "image",
+      "url": "assets/enemy/deer/2.png"
+    },
+    {
+      "name": "enemy_deer_3",
+      "type": "image",
+      "url": "assets/enemy/deer/3.png"
+    },
+    {
+      "name": "enemy_deer_4",
+      "type": "image",
+      "url": "assets/enemy/deer/4.png"
+    },
+    {
+      "name": "enemy_deer_5",
+      "type": "image",
+      "url": "assets/enemy/deer/5.png"
+    },
+    {
+      "name": "bkg1",
+      "type": "image",
+      "url": "assets/bkg/1.png"
+    },
+    {
+      "name": "btn_pause",
+      "type": "image",
+      "url": "assets/ui/pause.png"
+    },
+    {
+      "name": "hero_run1",
+      "type": "image",
+      "url": "assets/hero/run1.png"
+    },
+    {
+      "name": "hero_run2",
+      "type": "image",
+      "url": "assets/hero/run2.png"
+    },
+    {
+      "name": "hero_run3",
+      "type": "image",
+      "url": "assets/hero/run3.png"
+    },
+    {
+      "name": "hero_run4",
+      "type": "image",
+      "url": "assets/hero/run4.png"
+    },
+    {
+      "name": "hero_skill1_1",
+      "type": "image",
+      "url": "assets/hero/skill11.png"
+    },
+    {
+      "name": "hero_skill1_2",
+      "type": "image",
+      "url": "assets/hero/skill12.png"
+    },
+    {
+      "name": "hero_skill1_3",
+      "type": "image",
+      "url": "assets/hero/skill13.png"
+    },
+    {
+      "name": "hero_skill1_4",
+      "type": "image",
+      "url": "assets/hero/skill14.png"
+    },
+    {
+      "name": "hero_skill1_5",
+      "type": "image",
+      "url": "assets/hero/skill15.png"
+    },
+    {
+      "name": "hero_skill1_6",
+      "type": "image",
+      "url": "assets/hero/skill16.png"
+    },
+    {
+      "name": "item_medicine_hp",
+      "type": "image",
+      "url": "assets/item/medicine_hp.png"
+    },
+    {
+      "name": "item_poison_bubble",
+      "type": "image",
+      "url": "assets/item/poison_bubble.png#"
+    }
+
+
+  ]
+}

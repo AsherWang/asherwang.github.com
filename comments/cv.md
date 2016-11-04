@@ -58,9 +58,9 @@
 - Web开发：Ruby/Node
 - Web框架：Rails/express/koa
 - 前端框架：Bootstrap/AngularJS/HTML5/ionic
-- 前端工具：Bower/Gulp/Sass/Pug(Jade)/Slim/
-- 数据库相关：MySQL/MongoDB/SqlServer
-- 版本管理、文档和自动化部署工具：Svn/Git
+- 前端工具：Bower/Gulp/Sass/Pug(Jade)/Slim
+- 数据库相关：MySQL/MongoDB
+- 版本管理、文档和自动化部署工具：Git
 - 云和开放平台：SAE/微信应用开发
 
 
