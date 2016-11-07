@@ -70,7 +70,7 @@
 9. 游戏Dodge（个人完成）  
     使用Egret引擎，语言TypeScript。目前还在学习阶段。  
     游戏Demo地址：[https://asherwang.github.io/apps/dodge.html](https://asherwang.github.io/apps/dodge.html)  
-9. 其他  
+10. 其他  
     在大学的时候什么技术都喜欢去学一点。用MFC写过吃金币、打砖块的小游戏，其中在打砖块的游戏中还给自己的挡板加上了血量；
     使用Java的Swing库和SWT框架写过扫雷小游戏；折腾过RPG Maker；写python脚本去爬网站的图片，去给遇到的钓鱼网站提交垃圾数据等等。  
 
