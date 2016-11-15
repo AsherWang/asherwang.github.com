@@ -1,0 +1,79 @@
+.panel{
+    border: solid 1px #e6e6e6;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.panel .panel-title{
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+    font-size: 14px;
+}
+
+.panel .panel-title .panel-title-name{
+    margin-left: 20px;
+}
+
+.panel .panel-title .panel-right-button{
+    float:right;
+    margin-right:20px;
+    color:#999;
+    cursor:pointer;
+    user-select:none;
+}
+
+.panel .panel-title .panel-right-button:hover
+{
+    color:#ffc107;
+}
+
+.panel .panel-title .panel-right-link{
+    float:right;
+    margin-right:20px;
+    color:#999;
+    cursor:pointer;
+    user-select:none;
+    text-decoration: none;
+}
+.panel .panel-title a.panel-right-link:visited{
+    color:#999;
+}
+
+.panel .panel-title a.panel-right-link:hover
+{
+    color:#ffc107;
+}
+
+
+.panel .panel-content{
+    border-top: 1px solid #e6e6e6;
+    padding:20px;
+    text-align: center;
+}
+.panel .panel-footer{
+    border-top: 1px solid #e6e6e6;
+}
+
+.panel .panel-content-tab{
+    display: none;
+}
+
+.panel .panel-content-tab.active{
+    display: block;
+}
+
+.panel .panel-content-tab-control{
+    flex: 1;
+    text-align: center;
+    color:#666;
+    font-size: 14px;
+    padding:5px 0;
+    cursor:pointer;
+    user-select:none;
+}
+.panel .panel-content-tab-control:hover,.panel .panel-content-tab-control.active{
+    color:#ffc107;
+}
