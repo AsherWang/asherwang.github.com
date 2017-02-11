@@ -1,4 +1,5 @@
 $().ready(function(){
+    
     $(".room")
     .mouseenter(function(){
         $(this).find(".icon-play").show().addClass("animated bounceIn");
@@ -24,6 +25,8 @@ $().ready(function(){
         }
         $(this).text(caption[state]);
         $(".content").css("height",$(".content-left").height()+"px");
+        //fixedScrollTop=$(".uptotop").offset().top+$(".uptotop").height()-window.innerHeight+30;
+        fixedScrollBottom=$(".footer").offset().top-window.innerHeight;
     });
 
 
@@ -43,6 +46,7 @@ $().ready(function(){
 
     var fixedScrollTop=$(".uptotop").offset().top+$(".uptotop").height()-window.innerHeight+30;
     var fixedScrollBottom=$(".footer").offset().top-window.innerHeight;
+    
     $(window).scroll(function(){
         if(fixedScrollTop && document.body.scrollTop>fixedScrollTop){
             $(".content-right-content").css("position","fixed").css("bottom","30px");
