@@ -44,33 +44,33 @@
                            {
                     Name:"Rage Your Dream",
                     Artist:"Initial.D",
-                    Audio:"http://7xirg3.com1.z0.glb.clouddn.com/musicRage Your Dream.mp3",
-                    Lrc:"http://7xirg3.com1.z0.glb.clouddn.com/lrcRage Your Dream.lrc"
+                    Audio:"http://qiniu.writeyoursmile.com/musicRage Your Dream.mp3",
+                    Lrc:"http://qiniu.writeyoursmile.com/lrcRage Your Dream.lrc"
                 },    
                            {
                     Name:"Endless Tears",
                     Artist:"feat.中村舞子",
-                    Audio:"http://7xirg3.com1.z0.glb.clouddn.com/musicEndless Tears.mp3",
-                    Lrc:"http://7xirg3.com1.z0.glb.clouddn.com/lrcEndless Tears.lrc"
+                    Audio:"http://qiniu.writeyoursmile.com/musicEndless Tears.mp3",
+                    Lrc:"http://qiniu.writeyoursmile.com/lrcEndless Tears.lrc"
                 },   
                 {
                     Name:"解夏",
                     Artist:"华少昱",
-                    Audio:"http://7xirg3.com1.z0.glb.clouddn.com/music解夏.mp3",
-                    Lrc:"http://7xirg3.com1.z0.glb.clouddn.com/lrc解夏.lrc"
+                    Audio:"http://qiniu.writeyoursmile.com/music解夏.mp3",
+                    Lrc:"http://qiniu.writeyoursmile.com/lrc解夏.lrc"
                 },
                     {
                     Name:"上邪",
                     Artist:"小曲儿",
-                    Audio:"http://7xirg3.com1.z0.glb.clouddn.com/music上邪.mp3",
-                    Lrc:"http://7xirg3.com1.z0.glb.clouddn.com/lrc上邪.lrc"
+                    Audio:"http://qiniu.writeyoursmile.com/music上邪.mp3",
+                    Lrc:"http://qiniu.writeyoursmile.com/lrc上邪.lrc"
                 },
                 
                                              {
                     Name:"盲眼画师",
                     Artist:"河图",
-                    Audio:"http://7xirg3.com1.z0.glb.clouddn.com/music盲眼画师.mp3",
-                    Lrc:"http://7xirg3.com1.z0.glb.clouddn.com/lrc盲眼画师.lrc"
+                    Audio:"http://qiniu.writeyoursmile.com/music盲眼画师.mp3",
+                    Lrc:"http://qiniu.writeyoursmile.com/lrc盲眼画师.lrc"
                 }
                  
             
